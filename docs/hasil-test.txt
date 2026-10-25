@@ -1,0 +1,26 @@
+﻿
+   PASS  Tests\Unit\ExampleTest
+  ✓ that true is true                            0.42s  
+
+   PASS  Tests\Feature\InventorySalesTest
+  ✓ guest cannot open dashboard                  8.32s  
+  ✓ wrong password is rejected                   2.40s  
+  ✓ valid login reaches dashboard                0.38s  
+  ✓ duplicate sku is rejected                    0.85s  
+  ✓ negative price is rejected                   0.07s  
+  ✓ product used in transaction cannot be delet… 0.40s  
+  ✓ purchase increases stock                     0.22s  
+  ✓ sale decreases stock and server calculates…  0.02s  
+  ✓ sale with insufficient stock is rejected wi… 0.13s  
+  ✓ failed item rolls back the whole sale        0.02s  
+  ✓ duplicate product rows are merged before st… 0.02s  
+  ✓ admin cancelling a sale restores stock once  0.05s  
+  ✓ staff cannot access admin functions          1.87s  
+  ✓ staff cannot cancel transactions or view ot… 0.30s  
+  ✓ product search filter and pagination         0.11s  
+  ✓ sales date and status filters                0.23s  
+  ✓ dashboard numbers come from database         0.31s  
+
+  Tests:    18 passed (65 assertions)
+  Duration: 21.68s
+
